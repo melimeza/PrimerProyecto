@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos.css">
+    <link href = "https://fonts.googleapis.com/css2? family = Roboto: ital, wght @ 0,100; 0,300; 0,500; 1,100 & display = swap "rel =" stylesheet ">
     <title>Portfolio</title>
 </head>
 <body>
+    <div class="contenedor">
     <header>
-        <nav>
+        <nav class="menu">
             <a href="#">Dribble</a>
             <a href="#">Linkedin</a>
             <a href="#">About</a>
@@ -15,18 +18,23 @@
             <a href="#">View Work</a>
         </nav>
     </header>
-    <!-- esto es un comentario -->
-    <br>
-    <section>
-        <img src="imagenes/Melhi.jpg" width="150" height="150">
-        <h1>Quien soy?</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit architecto explicabo sapiente aperiam earum unde, iusto, veritatis id doloremque autem blanditiis aut assumenda molestias consectetur! Ab repellendus rem soluta non!</p>
+    <br><br>
+    <section class="main">
+        <section class="portada">
+            <div class="imagen">
+                <img src="imagenes/Melhi.jpg" width="400" height="400">
+            </div>
+            <div class="contenedor-texto">
+                <h1>Quien soy?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit architecto explicabo sapiente aperiam earum unde, iusto, veritatis id doloremque autem blanditiis aut assumenda molestias consectetur! Ab repellendus rem soluta non!Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit architecto explicabo sapiente aperiam earum unde, iusto, veritatis id doloremque autem blanditiis aut assumenda molestias consectetur! Ab repellendus rem soluta non!</p>
+            </div>
+        </section>
+        <section class="por-que-estudiar">
+            <h2> Por que estudiar programacion?</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse fugit sunt iure, exercitationem ex recusandae, eius omnis totam odit autem inventore consequatur repellendus. Expedita hic debitis quidem esse, molestiae consequuntur.</p>
+        </section>
     </section>
-    <br> <br>
-    <section>
-        <h2> Por que estudiar programacion?</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse fugit sunt iure, exercitationem ex recusandae, eius omnis totam odit autem inventore consequatur repellendus. Expedita hic debitis quidem esse, molestiae consequuntur.</p>
-    
+    <section class="footer">
         <a href="#">UI DESIGN</a>
         <a href="#">UX DESIGN</a>
         <a href="#">PROTOTYPING</a>
@@ -40,6 +48,6 @@
         <a href="#">SKETCH</a>
         <a href="#">ADOBE SUITE</a>
     </section>
-    
+    </div>
 </body>
 </html>
